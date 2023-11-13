@@ -1,0 +1,12 @@
+<%# // récupérer la question du doc ask.html
+// réponse automatique via des if
+// préciser si coach ou student qui ecrit
+// rediriger vers la page pour poser une nouvelle question %>
+
+<h1>Stupid coaching</h1>
+<p><%= @question %></p>
+<p>- You</p>
+<p><%= @answer %></p>
+<p>- Your coach</p>
+
+<%= link_to "Ask a new question", ask_path%>
